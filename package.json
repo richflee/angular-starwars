@@ -10,7 +10,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "serve:dev": "ng serve --host 0.0.0.0 --port 8000",
-    "build:prod": "ng build --prod --aot true",
+    "build:prod": "ng build --prod --aot true --verbose true",
     "cp-misc-to-dist": "cpx 'src/misc/**/*' dist/misc"
   },
   "private": true,
